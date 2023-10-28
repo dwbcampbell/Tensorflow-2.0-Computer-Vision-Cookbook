@@ -1,9 +1,9 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
+from keras.datasets import mnist
+from keras.layers import *
+from keras.models import *
 
 
 def load_data():

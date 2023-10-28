@@ -3,11 +3,11 @@ import os
 import numpy as np
 import tarfile
 import tensorflow as tf
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
-from tensorflow.keras.regularizers import l2
-from tensorflow.keras.utils import get_file
+from keras.callbacks import ModelCheckpoint
+from keras.layers import *
+from keras.models import *
+from keras.regularizers import l2
+from keras.utils import get_file
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 TRAIN = False

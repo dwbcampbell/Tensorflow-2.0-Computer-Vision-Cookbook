@@ -5,12 +5,12 @@ import pathlib
 import cv2
 import imutils
 import numpy as np
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.preprocessing.image import *
-from tensorflow.keras.utils import to_categorical
+from keras.callbacks import ModelCheckpoint
+from keras.layers import *
+from keras.models import *
+from keras.optimizers import Adam
+from keras.preprocessing.image import *
+from keras.utils import to_categorical
 
 EMOTIONS = ['angry', 'scared', 'happy', 'sad', 'surprised',
             'neutral']

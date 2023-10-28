@@ -2,9 +2,9 @@ import cv2
 import imutils
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.applications import *
-from tensorflow.keras.models import Model
-from tensorflow.keras.preprocessing.image import *
+from keras.applications import *
+from keras.models import Model
+from keras.preprocessing.image import *
 
 
 class GradGAM(object):

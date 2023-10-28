@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import Model
-from tensorflow.keras import backend as K
-from tensorflow.keras.datasets import fashion_mnist
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import mse
-from tensorflow.keras.optimizers import Adam
+from keras import Model
+from keras import backend as K
+from keras.datasets import fashion_mnist
+from keras.layers import *
+from keras.losses import mse
+from keras.optimizers import Adam
 
 tf.config.experimental_run_functions_eagerly(True)
 

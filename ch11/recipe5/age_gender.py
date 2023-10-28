@@ -8,8 +8,8 @@ import imutils
 import numpy as np
 from autokeras import *
 from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import *
+from keras.models import load_model
+from keras.preprocessing.image import *
 
 base_path = (pathlib.Path.home() / '.keras' / 'datasets' /
              'adience')

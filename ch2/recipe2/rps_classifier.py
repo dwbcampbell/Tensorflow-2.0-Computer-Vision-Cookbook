@@ -5,9 +5,9 @@ import glob
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
-from tensorflow.keras import Model
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import CategoricalCrossentropy
+from keras import Model
+from keras.layers import *
+from keras.losses import CategoricalCrossentropy
 
 CLASSES = ['rock', 'paper', 'scissors']
 AUTOTUNE = tf.data.experimental.AUTOTUNE

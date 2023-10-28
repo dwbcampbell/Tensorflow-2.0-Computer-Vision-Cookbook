@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import Model
-from tensorflow.keras.applications.inception_v3 import *
+from keras import Model
+from keras.applications.inception_v3 import *
 
 
 class DeepDreamer(object):

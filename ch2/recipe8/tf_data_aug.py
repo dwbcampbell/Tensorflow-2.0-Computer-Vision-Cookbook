@@ -8,8 +8,8 @@ import tensorflow_docs as tfdocs
 import tensorflow_docs.plots
 from glob import glob
 from sklearn.model_selection import train_test_split
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
+from keras.layers import *
+from keras.models import Model
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 

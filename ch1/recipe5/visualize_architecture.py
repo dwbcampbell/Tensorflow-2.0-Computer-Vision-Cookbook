@@ -1,7 +1,7 @@
 from PIL import Image
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
-from tensorflow.keras.utils import plot_model
+from keras.layers import *
+from keras.models import Model
+from keras.utils import plot_model
 
 input_layer = Input(shape=(64, 64, 3), name='input_layer')
 convolution_1 = Conv2D(kernel_size=(2, 2),

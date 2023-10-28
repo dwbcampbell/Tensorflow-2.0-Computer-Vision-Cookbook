@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tqdm
 from matplotlib.patches import Rectangle
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
-from tensorflow.keras.preprocessing.image import *
+from keras.layers import *
+from keras.models import *
+from keras.preprocessing.image import *
 
 
 class WeightReader:

@@ -8,9 +8,9 @@ import tensorflow_docs.plots
 from glob import glob
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
-from tensorflow.keras.preprocessing.image import *
+from keras.layers import *
+from keras.models import Model
+from keras.preprocessing.image import *
 
 
 def load_images_and_labels(image_paths, target_size=(64, 64)):

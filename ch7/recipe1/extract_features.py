@@ -6,13 +6,13 @@ from string import punctuation
 
 import numpy as np
 import tqdm
-from tensorflow.keras.applications.vgg16 import *
-from tensorflow.keras.layers import *
-from tensorflow.keras.preprocessing.image import *
-from tensorflow.keras.preprocessing.sequence import \
+from keras.applications.vgg16 import *
+from keras.layers import *
+from keras.preprocessing.image import *
+from keras.preprocessing.sequence import \
     pad_sequences
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.utils import to_categorical
+from keras.preprocessing.text import Tokenizer
+from keras.utils import to_categorical
 from tqdm import tqdm
 
 

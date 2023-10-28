@@ -5,11 +5,11 @@ from glob import glob
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras import Model
-from tensorflow.keras.applications import VGG16
-from tensorflow.keras.layers import *
-from tensorflow.keras.optimizers import *
-from tensorflow.keras.preprocessing.image import *
+from keras import Model
+from keras.applications import VGG16
+from keras.layers import *
+from keras.optimizers import *
+from keras.preprocessing.image import *
 
 SEED = 999
 

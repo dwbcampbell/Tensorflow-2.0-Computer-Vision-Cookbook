@@ -6,9 +6,9 @@ import glob
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MultiLabelBinarizer
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
-from tensorflow.keras.preprocessing.image import *
+from keras.layers import *
+from keras.models import Model
+from keras.preprocessing.image import *
 
 
 def build_network(width, height, depth, classes):

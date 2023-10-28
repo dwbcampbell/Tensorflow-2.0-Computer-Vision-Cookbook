@@ -4,10 +4,10 @@ import cv2
 import numpy as np
 import tensorflow as tf
 import tqdm
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import BinaryCrossentropy
-from tensorflow.keras.models import *
-from tensorflow.keras.optimizers import Adam
+from keras.layers import *
+from keras.losses import BinaryCrossentropy
+from keras.models import *
+from keras.optimizers import Adam
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 NEAREST_NEIGHBOR = tf.image.ResizeMethod.NEAREST_NEIGHBOR

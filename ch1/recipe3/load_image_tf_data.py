@@ -4,7 +4,7 @@ import tarfile
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.utils import get_file
+from keras.utils import get_file
 
 DATASET_URL = 'https://datashare.is.ed.ac.uk/bitstream/handle/10283/3192/CINIC-10.tar.gz?sequence=4&isAllowed=y'
 DATA_NAME = 'cinic10'

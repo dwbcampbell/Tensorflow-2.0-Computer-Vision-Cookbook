@@ -6,10 +6,10 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras import Model
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import CategoricalCrossentropy
-from tensorflow.keras.preprocessing.image import *
+from keras import Model
+from keras.layers import *
+from keras.losses import CategoricalCrossentropy
+from keras.preprocessing.image import *
 
 
 def load_images_and_labels(image_paths, target_size=(64, 64)):

@@ -11,8 +11,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.svm import LinearSVC
 from sklearn.tree import *
-from tensorflow.keras.applications import *
-from tensorflow.keras.preprocessing.image import *
+from keras.applications import *
+from keras.preprocessing.image import *
 from tqdm import tqdm
 
 from ch3.recipe1.feature_extractor import FeatureExtractor

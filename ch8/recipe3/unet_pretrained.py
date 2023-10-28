@@ -5,12 +5,12 @@ import tensorflow as tf
 import tensorflow_datasets as tfdata
 import tensorflow_docs as tfdocs
 import tensorflow_docs.plots
-from tensorflow.keras.applications import MobileNetV2
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import \
+from keras.applications import MobileNetV2
+from keras.layers import *
+from keras.losses import \
     SparseCategoricalCrossentropy
-from tensorflow.keras.models import *
-from tensorflow.keras.optimizers import RMSprop
+from keras.models import *
+from keras.optimizers import RMSprop
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 

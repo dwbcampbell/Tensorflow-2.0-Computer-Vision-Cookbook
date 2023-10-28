@@ -1,10 +1,10 @@
 import numpy as np
 from numpy.random import randint
-from tensorflow.keras import backend as K
-from tensorflow.keras.datasets import fashion_mnist as fmnist
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
+from keras import backend as K
+from keras.datasets import fashion_mnist as fmnist
+from keras.layers import *
+from keras.models import Model
+from keras.optimizers import Adam
 from tqdm import tqdm
 
 

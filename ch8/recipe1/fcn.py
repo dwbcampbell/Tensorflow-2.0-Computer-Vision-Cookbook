@@ -7,11 +7,11 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 import tensorflow_docs as tfdocs
 import tensorflow_docs.plots
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import \
+from keras.layers import *
+from keras.losses import \
     SparseCategoricalCrossentropy
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import RMSprop
+from keras.models import Model
+from keras.optimizers import RMSprop
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 

@@ -6,9 +6,9 @@ import h5py
 import numpy as np
 import sklearn.utils as skutils
 from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras.applications import imagenet_utils
-from tensorflow.keras.applications.vgg16 import VGG16
-from tensorflow.keras.preprocessing.image import *
+from keras.applications import imagenet_utils
+from keras.applications.vgg16 import VGG16
+from keras.preprocessing.image import *
 from tqdm import tqdm
 
 

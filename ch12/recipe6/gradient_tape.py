@@ -2,12 +2,12 @@ import time
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.datasets import fashion_mnist as fm
-from tensorflow.keras.layers import *
-from tensorflow.keras.losses import categorical_crossentropy
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import RMSprop
-from tensorflow.keras.utils import to_categorical
+from keras.datasets import fashion_mnist as fm
+from keras.layers import *
+from keras.losses import categorical_crossentropy
+from keras.models import Model
+from keras.optimizers import RMSprop
+from keras.utils import to_categorical
 
 
 def load_dataset():

@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from tensorflow.keras.applications import imagenet_utils
-from tensorflow.keras.applications.inception_v3 import *
-from tensorflow.keras.preprocessing.image import *
+from keras.applications import imagenet_utils
+from keras.applications.inception_v3 import *
+from keras.preprocessing.image import *
 
 model = InceptionV3(weights='imagenet')
 

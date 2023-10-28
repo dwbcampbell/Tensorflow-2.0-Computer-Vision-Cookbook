@@ -5,10 +5,10 @@ import tensorflow_docs as tfdocs
 import tensorflow_docs.plots
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras.datasets import fashion_mnist as fm
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
-from tensorflow.keras.utils import plot_model
+from keras.datasets import fashion_mnist as fm
+from keras.layers import *
+from keras.models import *
+from keras.utils import plot_model
 
 
 def load_dataset():

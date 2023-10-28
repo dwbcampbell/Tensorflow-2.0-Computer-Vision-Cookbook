@@ -1,6 +1,6 @@
 from autokeras import *
-from tensorflow.keras.datasets import fashion_mnist as fm
-from tensorflow.keras.utils import *
+from keras.datasets import fashion_mnist as fm
+from keras.utils import *
 
 (X_train, y_train), (X_test, y_test) = fm.load_data()
 X_train = X_train.astype('float32')

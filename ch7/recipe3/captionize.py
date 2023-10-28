@@ -3,11 +3,11 @@ import pickle
 
 import matplotlib.pyplot as plt
 import numpy as np
-from tensorflow.keras.applications.vgg16 import *
-from tensorflow.keras.models import *
-from tensorflow.keras.preprocessing.sequence import \
+from keras.applications.vgg16 import *
+from keras.models import *
+from keras.preprocessing.sequence import \
     pad_sequences
-from tensorflow.keras.preprocessing.text import Tokenizer
+from keras.preprocessing.text import Tokenizer
 
 from ch7.recipe1.extract_features import ImageCaptionFeatureExtractor
 

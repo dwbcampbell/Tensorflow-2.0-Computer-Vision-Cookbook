@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras import Model
-from tensorflow.keras.applications.vgg19 import *
+from keras import Model
+from keras.applications.vgg19 import *
 
 
 class StyleTransferrer(object):

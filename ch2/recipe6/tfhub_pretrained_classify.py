@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow_hub as hub
-from tensorflow.keras import Sequential
-from tensorflow.keras.preprocessing.image import *
-from tensorflow.keras.utils import get_file
+from keras import Sequential
+from keras.preprocessing.image import *
+from keras.utils import get_file
 
 classifier_url = ('https://tfhub.dev/google/imagenet/'
                   'resnet_v2_152/classification/4')

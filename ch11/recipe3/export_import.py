@@ -1,7 +1,7 @@
 from autokeras import *
-from tensorflow.keras.datasets import fashion_mnist as fm
-from tensorflow.keras.models import load_model
-from tensorflow.keras.utils import plot_model
+from keras.datasets import fashion_mnist as fm
+from keras.models import load_model
+from keras.utils import plot_model
 
 (X_train, y_train), (X_test, y_test) = fm.load_data()
 X_train = X_train.astype('float32') / 255.0

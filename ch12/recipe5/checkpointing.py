@@ -2,10 +2,10 @@ import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelBinarizer
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.datasets import fashion_mnist as fm
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
+from keras.callbacks import ModelCheckpoint
+from keras.datasets import fashion_mnist as fm
+from keras.layers import *
+from keras.models import *
 
 
 def load_dataset():
